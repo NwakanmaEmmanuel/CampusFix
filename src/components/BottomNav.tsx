@@ -39,6 +39,8 @@ export default function BottomNav() {
               <MaterialIcon name={item.icon} className="text-[22px]" />
               <span className="font-label-sm text-label-sm">{item.label}</span>
             </Link>
+
+            //Libraries yet to be added
           )
         })}
       </div>
